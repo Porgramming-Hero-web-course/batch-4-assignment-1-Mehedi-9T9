@@ -1,4 +1,4 @@
-const removeDuplicaes=(arr:number[]):number[]=>{
+const removeDuplicates=(arr:number[]):number[]=>{
     const newArray:number[] =[];
      arr.map((num:number)=>{
         if(newArray.indexOf(num)=== -1){
@@ -6,6 +6,7 @@ const removeDuplicaes=(arr:number[]):number[]=>{
         }
   
     })
+    console.log(newArray);
     return newArray
 }
-console.log(removeDuplicaes([7,3,3,5,1,1]));
+removeDuplicates([1, 2, 2, 3, 4, 4, 5])
