@@ -3,7 +3,7 @@
 Using these you can make the types more flexible and controlled. <br>
 And many types can be used together <p> <br>
 
-<h2>Union Type:<h2>
+<h2>Union Type:</h2>
 <p>A union type is a type that contains multiple types, any one of which will be used, <br>
 We use union type when the data type of a variable is 2-3 types, <br>
 Union types are separated by bar symbols between the ones that take a value variable <p> <br>
@@ -14,7 +14,7 @@ name= 24;<br>
 if name= true, then give error <p> <br>
 
 
-<h2>Advantages of union type: <h2>
+<h2>Advantages of union type: </h2>
 <p>Union type provides flexibility to TypeScript and makes the code more dynamic, <br>
 allowing to work with multiple types of values.Union types make it easier in TypeScript <br>
 to handle situations where a variable can hold more than one type of value <p> <br>
@@ -26,7 +26,7 @@ makeId(101) <br>
 makeId("XYZ101") <p> <br>
 
 
-<h2>Intersection Type:<h2>
+<h2>Intersection Type:</h2>
 An intersection type in TypeScript is a type that combines multiple types to form a new type. <br>
 Using intersection type means that a variable or object must have all type properties attached to it. <br>
 The " & "  operator is used to create it. <br>
@@ -44,7 +44,7 @@ const RichMan:PoorMan & {isPhone:boolean}={ <br>
 } <br>
 
 
-<h2>Advantages of Intersection type:<h2>
+<h2>Advantages of Intersection type:</h2>
 The intersection type gives you the ability to create complex types, <br>
 where all the properties of multiple types must be combined. For example, <br>
 if you want to create an object that can hold multiple attributes at the same time, <br>
