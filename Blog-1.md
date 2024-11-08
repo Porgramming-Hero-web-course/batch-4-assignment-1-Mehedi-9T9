@@ -1,29 +1,29 @@
 <h2>Introduction:</h2>
-Union and intersection type are very important concepts in TypeScript.<br>
+<p>Union and intersection type are very important concepts in TypeScript. <br>
 Using these you can make the types more flexible and controlled. <br>
-And many types can be used together <br>
+And many types can be used together <p> <br>
 
 <h2>Union Type:<h2>
-A union type is a type that contains multiple types, any one of which will be used, <br>
+<p>A union type is a type that contains multiple types, any one of which will be used, <br>
 We use union type when the data type of a variable is 2-3 types, <br>
-Union types are separated by bar symbols between the ones that take a value variable <br>
+Union types are separated by bar symbols between the ones that take a value variable <p> <br>
 
-for Example: <br>
+<p>for Example: <br>
 let name: "string"|"number"="Mehedi Hasan" <br>
 name= 24;<br>
-if name= true, then give error <br>
+if name= true, then give error <p> <br>
 
 
 <h2>Advantages of union type: <h2>
-Union type provides flexibility to TypeScript and makes the code more dynamic, <br>
+<p>Union type provides flexibility to TypeScript and makes the code more dynamic, <br>
 allowing to work with multiple types of values.Union types make it easier in TypeScript <br>
-to handle situations where a variable can hold more than one type of value <br>
-Example: <br>
+to handle situations where a variable can hold more than one type of value <p> <br>
+<p>Example: <br>
 const makeId =(id:"string"|"number"):"string"|"number=>{ <br>
     console.log(id) <br>
 } <br>
 makeId(101) <br>
-makeId("XYZ101") <br>
+makeId("XYZ101") <p> <br>
 
 
 <h2>Intersection Type:<h2>
