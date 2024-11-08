@@ -1,6 +1,6 @@
-*Introduction:
-Union and intersection type are very important concepts in TypeScript.
-Using these you can make the types more flexible and controlled.
+<h1>*Introduction:</h1>
+Union and intersection type are very important concepts in TypeScript.<br>
+Using these you can make the types more flexible and controlled. <br>
 And many types can be used together
 
 *Union Type:
